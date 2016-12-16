@@ -53,7 +53,7 @@ def parse_changelog():
 
             datestr = parse_date(match.group(1).strip())
 
-            return version, datestr
+            return "1.7.5", datestr
 
 
 def bump_version(version):
